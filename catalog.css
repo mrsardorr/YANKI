@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*                    font-family: 'Raleway', sans-serif;             */
+*{
+    font-family: 'Raleway', sans-serif;  
+}
+a{
+    text-decoration: none !important;
+}
+
+header{
+    padding-top: 23px;
+}
+header nav{
+    margin-bottom: 30px;
+}
+header nav .catalog a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #252525;
+    margin-left: 25px;
+    transition: .1s;
+}
+header nav .catalog a:hover{
+    color: #E0BEA2;
+}
+.hedactive{
+    color: #E0BEA2 !important; 
+}
+header nav .emblem{
+    margin-left: 150px;
+    /* margin-right: 73px; */
+}
+header nav .switch a{
+    margin-left: 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #252525;
+
+}
+header nav .functions{
+    /* margin-left: 80px; */
+    margin-left: auto;
+}
+header nav .functions a{
+    margin-left: 20px;
+}
+
+/* ====================hed  */
+
+
+/* =============where  */
+
+.WhereWeAre a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252525;
+    transition: .2s;
+}
+.WhereWeAre a:hover{
+    color: #E0BEA2;
+}
+.WhereWeAre img{
+    margin: 0px 10px;
+}
+
+/* ==============w=here  */
+
+
+/* =====maain  ==================== */
+
+main{
+    padding-top: 30px;
+}
+
+main .catalog a{
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252525;
+    margin-bottom: 20px;
+    transition: .2s;
+}
+main .catalog a:hover{
+    color: #E0BEA2;
+}
+main .catalog h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #252525;
+    margin-bottom: 30px;
+}
+
+
+main .products .settings a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252525;
+    margin-left: 30px;
+}
+main .products .settings a img{
+    margin-left: 5px;
+}
+
+
+main .firstTRIPPLE{
+    margin-top: 30px;
+}
+main .firstTRIPPLE .img{
+    /* background-image: url(img/first_11111.jpg); */
+    width: 310px;
+    height: 360px;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+main .firstTRIPPLE .img a{
+    position: absolute;
+    right: 0;
+}
+main .firstTRIPPLE h4{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #252525;
+}
+ span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E0BEA2;
+    margin-left: 10px;
+}
+main .firstTRIPPLE h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #252525;
+}
+main .firstTRIPPLE .sizes a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(37, 37, 37, 0.5);
+    margin: 0px 2.5px;
+    transition: .2s;
+}
+main .firstTRIPPLE .sizes a:hover{
+    color: #E0BEA2;
+}
+main .firstTRIPPLE .color a{
+    margin: 0px 2.5px;
+
+}
+
+
+
+.siniybg{
+    background-image: url(img/first_11111.jpg);
+}
+.beliybg{
+    background-image: url(img/beliy.jpg);
+}
+.corniybg{
+    background-image: url(img/corniy.jpg);
+}
+.bejeviybg{
+    background-image: url(img/bejeviy.jpg);
+}
+
+/* =====maain  ==================== */
+
+
+
+
+/* =================fooooter */
+
+footer {
+    margin-top: 100px;
+}
+
+
+footer h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #252525;
+    margin-bottom: 20px;
+}
+footer a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252525;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: .2s;
+}
+footer a:hover{
+    color: #E0BEA2;
+}
+footer .company{
+    margin-left: 10px;
+}
+
+footer .usefull{
+    margin-left: 150px;
+}
+footer .client{
+    margin-left: 80px;
+}
+footer .contacts{
+    margin-left: -30px;
+}
+footer h6{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #252525;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+/* =================fooooter */
